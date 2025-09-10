@@ -548,7 +548,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../Imagenes/image_nosotros.webp");
+  background-image: url("../imagenes/image_nosotros.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2870,14 +2870,14 @@ body.sustainability-page .hero.about-hero .hero-image {
 }
 
 .home-sustainability-section {
-  background-image: url("../Imagenes/sustainability-bg.svg");
+  background-image: url("../imagenes/sustainability-bg.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .home-ethics-section {
-  background-image: url("../Imagenes/ethics-bg.svg");
+  background-image: url("../imagenes/ethics-bg.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
