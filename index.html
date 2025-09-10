@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      INACONS - Empresa Constructora | Obras Civiles, Infraestructura y
+      Consultoría
+    </title>
+    <meta
+      name="description"
+      content="INACONS, empresa constructora con más de 15 años de experiencia en obras civiles, infraestructura, paisajismo, electromecánica, minería y consultoría."
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/assets/css/main.css"/>
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-left">
+          <div class="top-bar-contact">
+            <i data-lucide="mail" width="16" height="16"></i>
+            <span>ventas@inacons.com</span>
+          </div>
+          <div class="top-bar-contact">
+            <i data-lucide="phone" width="16" height="16"></i>
+            <span>+51 064 654 736</span>
+          </div>
+        </div>
+        <div class="top-bar-social">
+          <a
+            href="https://www.facebook.com/www.inacons.com.pe"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i data-lucide="facebook" width="16" height="16"></i>
+          </a>
+          <a
+            href="https://pe.linkedin.com/company/inacons"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i data-lucide="linkedin" width="16" height="16"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header with-topbar" id="header">
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/imagenes/logos/logo_inacons_white.svg"
+            alt="INACONS"
+            class="logo-white"
+          />
+          <img
+            src="./assets/imagenes/logos/logo_inacons.svg"
+            alt="INACONS"
+            class="logo-color"
+          />
+        </a>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li class="dropdown">
+              <a href="./servicios.html">Servicios</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./obras-civiles.html">Obras Civiles</a>
+                </li>
+                <li>
+                  <a href="./infraestructura.html">Infraestructura</a>
+                </li>
+                <li>
+                  <a href="./electromecanica.html">Electromecánica</a>
+                </li>
+                <li><a href="./paisajismo.html">Paisajismo</a></li>
+                <li><a href="./mineria.html">Minería</a></li>
+                <li><a href="./consultoria.html">Consultoría</a></li>
+              </ul>
+            </li>
+            <li><a href="./proyectos.html">Proyectos</a></li>
+            <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+          <i data-lucide="menu" width="24" height="24"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-content">
+        <button
+          class="mobile-menu-close"
+          id="mobileMenuClose"
+          aria-label="Cerrar menú"
+        >
+          <i data-lucide="x" width="24" height="24"></i>
+        </button>
+
+        <!-- Navigation -->
+        <nav class="mobile-nav">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./proyectos.html">Proyectos</a></li>
+            <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- CTA -->
+        <div class="mobile-cta">
+          <a href="./contacto.html" class="btn btn-accent btn-large">Descargar Brochure</a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mobile-contact">
+          <div class="mobile-contact-item">
+            <i data-lucide="mail" width="20" height="20"></i>
+            <span>ventas@inacons.com.pe</span>
+          </div>
+          <div class="mobile-contact-item">
+            <i data-lucide="phone" width="20" height="20"></i>
+            <span>+51 064 654 736</span>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="mobile-social">
+          <a href="https://www.facebook.com/www.inacons.com.pe" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i data-lucide="facebook" width="24" height="24"></i>
+          </a>
+          <a href="https://pe.linkedin.com/company/inacons" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i data-lucide="linkedin" width="24" height="24"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main with-topbar">
+      <section class="home-hero">
+        <video class="hero-video" autoplay muted loop>
+          <source src="./assets/videos/hero.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+          <h1 id="typewriter-text">
+            <span class="hero-line">
+              <span class="word fixed">CONSTRUIMOS</span>
+              <span
+                class="word highlight typewriter"
+                data-text="CONFIANZA"
+              ></span>
+            </span>
+            <span class="hero-line">
+              <span
+                class="word highlight typewriter"
+                data-text="INNOVAMOS"
+              ></span>
+              <span class="word fixed">ESPACIOS</span>
+            </span>
+            <span class="hero-line">
+              <span class="word fixed">TRASCENDEMOS</span>
+              <span class="word highlight typewriter" data-text="JUNTOS"></span>
+            </span>
+          </h1>
+          <p>
+            Con más de 15 años de experiencia en el sector construcción, somos
+            líderes en obras civiles, infraestructura y consultoría
+            especializada.
+          </p>
+        </div>
+
+        <!-- Hero Indicators -->
+        <div class="hero-indicators">
+          <div class="indicators-divider"></div>
+          <div class="indicators-container">
+            <div class="indicator">
+              <div class="indicator-icon">
+                <i data-lucide="calendar" width="28" height="28"></i>
+              </div>
+              <div class="indicator-number" data-target="15">0</div>
+              <div class="indicator-text">años de experiencia</div>
+            </div>
+            <div class="indicator">
+              <div class="indicator-icon">
+                <i data-lucide="map" width="28" height="28"></i>
+              </div>
+              <div class="indicator-number" data-target="150">0</div>
+              <div class="indicator-text">km² construidos</div>
+            </div>
+            <div class="indicator">
+              <div class="indicator-icon">
+                <i data-lucide="trending-up" width="28" height="28"></i>
+              </div>
+              <div class="indicator-number" data-target="100">0</div>
+              <div class="indicator-text">MM de inversión</div>
+            </div>
+            <div class="indicator">
+              <div class="indicator-icon">
+                <i data-lucide="users" width="28" height="28"></i>
+              </div>
+              <div class="indicator-number" data-target="100">0</div>
+              <div class="indicator-text">profesionales</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-about">
+        <div class="container">
+          <div class="about-content">
+            <div
+              class="about-text"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
+              <p class="about-subtitle text-color-black">
+                Bienvenido a INACONS
+              </p>
+              <h2 class="about-title text-color-black">
+                Líderes en Construcción e Infraestructura
+              </h2>
+              <p class="about-description">
+                En INACONS, nacimos en el Perú y, con más de 15 años de
+                experiencia en el mercado, hemos consolidado una metodología de
+                trabajo innovadora que garantiza proyectos de alta calidad en
+                plazos eficientes. Nuestra pasión es construir soluciones que
+                superen expectativas, aportando confianza, compromiso y
+                excelencia en cada obra.
+              </p>
+              <a href="./nosotros.html" class="btn">Conócenos</a>
+            </div>
+            <div
+              class="about-image"
+              data-aos="fade-left"
+              data-aos-duration="800"
+            >
+              <img
+                src="./assets/imagenes/home_about.png"
+                alt="Equipo INACONS trabajando en construcción"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="home-projects">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up" data-aos-duration="600">
+            <h2>Nuestros Proyectos</h2>
+            <p>Descubre algunos de nuestros proyectos más destacados</p>
+          </div>
+
+          <div
+            class="swiper-container swiper projects-swiper"
+            id="projectsSwiper"
+          >
+            <div class="swiper-wrapper">
+              <!-- Project Card 1 -->
+              <div class="swiper-slide">
+                <div
+                  class="home-project-card"
+                  style="
+                    background-image: url('./assets/imagenes/projects/project1.webp');
+                  "
+                >
+                  <div class="home-project-overlay">
+                    <div class="home-project-info">
+                      <h3 class="project-name">Edificio Corporativo</h3>
+                      <p class="project-location">Lima, Perú</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 2 -->
+              <div class="swiper-slide">
+                <div
+                  class="home-project-card"
+                  style="
+                    background-image: url('./assets/imagenes/projects/project2.webp');
+                  "
+                >
+                  <div class="home-project-overlay">
+                    <div class="home-project-info">
+                      <h3 class="project-name">Puente Vehicular</h3>
+                      <p class="project-location">Arequipa, Perú</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 3 -->
+              <div class="swiper-slide">
+                <div
+                  class="home-project-card"
+                  style="
+                    background-image: url('./assets/imagenes/projects/project3.webp');
+                  "
+                >
+                  <div class="home-project-overlay">
+                    <div class="home-project-info">
+                      <h3 class="project-name">Carretera Nacional</h3>
+                      <p class="project-location">Cusco, Perú</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 4 -->
+              <div class="swiper-slide">
+                <div
+                  class="home-project-card"
+                  style="
+                    background-image: url('./assets/imagenes/projects/project4.webp');
+                  "
+                >
+                  <div class="home-project-overlay">
+                    <div class="home-project-info">
+                      <h3 class="project-name">Hospital Regional</h3>
+                      <p class="project-location">Trujillo, Perú</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 5 -->
+              <div class="swiper-slide">
+                <div
+                  class="home-project-card"
+                  style="
+                    background-image: url('./assets/imagenes/projects/project1.webp');
+                  "
+                >
+                  <div class="home-project-overlay">
+                    <div class="home-project-info">
+                      <h3 class="project-name">Centro Educativo</h3>
+                      <p class="project-location">Piura, Perú</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 6 -->
+              <div class="swiper-slide">
+                <div
+                  class="home-project-card"
+                  style="
+                    background-image: url('./assets/imagenes/projects/project2.webp');
+                  "
+                >
+                  <div class="home-project-overlay">
+                    <div class="home-project-info">
+                      <h3 class="project-name">Conjunto Residencial</h3>
+                      <p class="project-location">Chiclayo, Perú</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clients Section -->
+      <section class="home-clients" id="clientes">
+        <div class="container">
+          <div
+            class="home-clients-content"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            <p class="section-subtitle">Nuestros Clientes</p>
+            <h2 class="section-title">
+              Empresas que confían en nuestra experiencia y calidad
+            </h2>
+            <p class="section-description">
+              Trabajamos con empresas líderes que valoran la calidad, innovación
+              y compromiso en cada proyecto de construcción.
+            </p>
+          </div>
+
+          <div class="home-clients-carousel-container">
+            <div class="home-clients-carousel-track" id="clientsCarouselTrack">
+              <!-- Primera serie de logos -->
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_electrocentro.png"
+                  alt="Cliente 1"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_electrodunas.png"
+                  alt="Cliente 2"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_enel.png"
+                  alt="Cliente 3"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_epsgrau.png"
+                  alt="Cliente 4"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_grupocentenario.png"
+                  alt="Cliente 5"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_indecopi.png"
+                  alt="Cliente 6"
+                />
+              </div>
+              <!-- Segunda serie de logos para scroll infinito -->
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_losportales.png"
+                  alt="Cliente 1"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_luzdelsur.png"
+                  alt="Cliente 2"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_mediacommerce.png"
+                  alt="Cliente 3"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_sanmiguel.png"
+                  alt="Cliente 4"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_sedapal.png"
+                  alt="Cliente 5"
+                />
+              </div>
+              <div class="home-client-logo">
+                <img
+                  src="./assets/imagenes/clientes/cliente_zv.png"
+                  alt="Cliente 6"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sustainability & Ethics Sections -->
+      <section class="home-sustainability-ethics">
+        <div class="container">
+          <div class="sections-grid">
+            <!-- Sustainability Section -->
+            <div
+              class="home-impact-section home-sustainability-section"
+              data-aos="fade-right"
+              data-aos-duration="800"
+            >
+              <div class="home-section-overlay">
+                <div class="home-section-content">
+                  <h3 class="section-title">Nuestro impacto</h3>
+                  <a href="./sostenibilidad.html" class="btn">IR A SOSTENIBILIDAD</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ethics Section -->
+            <div
+              class="home-impact-section home-ethics-section"
+              data-aos="fade-left"
+              data-aos-duration="800"
+            >
+              <div class="home-section-overlay">
+                <div class="home-section-content">
+                  <h3 class="section-title">Nuestro Compromiso</h3>
+                  <a href="./contacto.html#canal-comunicaciones" class="btn"
+                    >IR A CANAL DE COMUNICACIONES</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Columna 1: Logo + Slogan + Redes Sociales -->
+          <div class="footer-section footer-brand">
+            <div class="footer-logo">
+              <img
+                src="./assets/imagenes/logos/logo_inacons_white.svg"
+                alt="INACONS"
+              />
+            </div>
+            <p class="footer-slogan">
+              CONSTRUIMOS CONFIANZA<br />
+              INNOVAMOS ESPACIOS<br />
+              TRASCENDEMOS JUNTOS
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/www.inacons.com.pe"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <i data-lucide="facebook" width="20" height="20"></i>
+              </a>
+              <a
+                href="https://pe.linkedin.com/company/inacons"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <i data-lucide="linkedin" width="20" height="20"></i>
+              </a>
+              <a href="https://www.instagram.com/inacons_oficial/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i data-lucide="instagram" width="20" height="20"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Columna 2: Menú Principal -->
+          <div class="footer-section">
+            <h3>Navegación</h3>
+            <ul>
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./servicios.html">Servicios</a></li>
+              <li><a href="./proyectos.html">Proyectos</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Columna 3: Menú de Servicios -->
+          <div class="footer-section">
+            <h3>Servicios</h3>
+            <ul>
+              <li><a href="./obras-civiles.html">Obras Civiles</a></li>
+              <li><a href="./infraestructura.html">Infraestructura</a></li>
+              <li><a href="./electromecanica.html">Electromecánica</a></li>
+              <li><a href="./mineria.html">Minería</a></li>
+              <li><a href="./consultoria.html">Consultoría</a></li>
+              <li><a href="./paisajismo.html">Paisajismo</a></li>
+            </ul>
+          </div>
+
+          <!-- Columna 4: Contacto -->
+          <div class="footer-section">
+            <h3>Contacto</h3>
+            <ul>
+              <li>
+                <i data-lucide="mail" width="16" height="16"></i>
+                ventas@inacons.com.pe
+              </li>
+              <li>
+                <i data-lucide="phone" width="16" height="16"></i>
+                +51 064 654 736
+              </li>
+              <li>
+                <i data-lucide="map-pin" width="16" height="16"></i>
+                Av. Las Casuarinas 256 Pucusana - Lima
+              </li>
+              <li>
+                <i data-lucide="map-pin" width="16" height="16"></i>
+                Calle Casuarinas 112 El Tambo - Huancayo
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 INACONS. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+      <i data-lucide="chevron-up" width="24" height="24"></i>
+    </button>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS (Animate On Scroll) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: true,
+        offset: 100,
+      });
+    </script>
+
+    <!-- Main JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swiper-init.js"></script>
+  </body>
+</html>

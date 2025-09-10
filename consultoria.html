@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      INACONS - Empresa Constructora | Obras Civiles, Infraestructura y
+      Consultoría
+    </title>
+    <meta
+      name="description"
+      content="INACONS, empresa constructora con más de 15 años de experiencia en obras civiles, infraestructura, paisajismo, electromecánica, minería y consultoría."
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-left">
+          <div class="top-bar-contact">
+            <i data-lucide="mail" width="16" height="16"></i>
+            <span>ventas@inacons.com</span>
+          </div>
+          <div class="top-bar-contact">
+            <i data-lucide="phone" width="16" height="16"></i>
+            <span>+51 064 654 736</span>
+          </div>
+        </div>
+        <div class="top-bar-social">
+          <a
+            href="https://www.facebook.com/www.inacons.com.pe"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i data-lucide="facebook" width="16" height="16"></i>
+          </a>
+          <a
+            href="https://pe.linkedin.com/company/inacons"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i data-lucide="linkedin" width="16" height="16"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header with-topbar" id="header">
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/imagenes/logos/logo_inacons_white.svg"
+            alt="INACONS"
+            class="logo-white"
+          />
+          <img
+            src="./assets/imagenes/logos/logo_inacons.svg"
+            alt="INACONS"
+            class="logo-color"
+          />
+        </a>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li class="dropdown">
+              <a href="./servicios.html">Servicios</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./obras-civiles.html">Obras Civiles</a>
+                </li>
+                <li>
+                  <a href="./infraestructura.html">Infraestructura</a>
+                </li>
+                <li>
+                  <a href="./electromecanica.html">Electromecánica</a>
+                </li>
+                <li><a href="./paisajismo.html">Paisajismo</a></li>
+                <li><a href="./mineria.html">Minería</a></li>
+                <li><a href="./consultoria.html" class="active">Consultoría</a></li>
+              </ul>
+            </li>
+            <li><a href="./proyectos.html">Proyectos</a></li>
+            <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+          <i data-lucide="menu" width="24" height="24"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-content">
+        <button
+          class="mobile-menu-close"
+          id="mobileMenuClose"
+          aria-label="Cerrar menú"
+        >
+          <i data-lucide="x" width="24" height="24"></i>
+        </button>
+
+        <!-- Navigation -->
+        <nav class="mobile-nav">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./proyectos.html">Proyectos</a></li>
+            <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- CTA -->
+        <div class="mobile-cta">
+          <a href="#" class="btn btn-accent btn-large">Descargar Brochure</a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mobile-contact">
+          <div class="mobile-contact-item">
+            <i data-lucide="mail" width="20" height="20"></i>
+            <span>ventas@inacons.com.pe</span>
+          </div>
+          <div class="mobile-contact-item">
+            <i data-lucide="phone" width="20" height="20"></i>
+            <span>+51 064 654 736</span>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="mobile-social">
+          <a href="#" aria-label="Facebook">
+            <i data-lucide="facebook" width="24" height="24"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i data-lucide="linkedin" width="24" height="24"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <section class="hero service-hero" style="background-image: url('../assets/imagenes/image_consultoría.webp');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+          <div class="service-hero-content">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs">
+              <a href="../index.html">Inicio</a>
+              <span class="breadcrumb-separator">></span>
+              <a href="../servicios.html">Servicios</a>
+              <span class="breadcrumb-separator">></span>
+              <span class="breadcrumb-current">Consultoría</span>
+            </nav>
+            <h1 class="service-title">Consultoría</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service Information Section -->
+      <section class="service-info-section">
+        <div class="container">
+          <div class="service-info-content">
+            <!-- Main Content Column -->
+            <div class="service-info-column">
+              <div class="service-info-header" data-aos="fade-up" data-aos-duration="600">
+                <h2 class="section-title">Información del Servicio</h2>
+              </div>
+              <div class="service-description" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                <p>
+                  Nuestros servicios de consultoría ofrecen asesoramiento especializado en todas las fases de proyectos de construcción e infraestructura. Contamos con un equipo multidisciplinario de profesionales que brindan soluciones técnicas innovadoras y estratégicas para optimizar la ejecución de proyectos.
+                </p>
+                <p>
+                  Desde estudios de factibilidad hasta supervisión de obras, nuestro enfoque integral garantiza que cada proyecto se desarrolle con los más altos estándares de calidad, cumpliendo con normativas vigentes y optimizando recursos para maximizar la rentabilidad de nuestros clientes.
+                </p>
+                <p>
+                  Trabajamos de la mano con nuestros clientes para entender sus necesidades específicas y desarrollar estrategias personalizadas que aseguren el éxito de sus proyectos, desde la conceptualización hasta la entrega final.
+                </p>
+              </div>
+            </div>
+
+            <!-- Aside Column -->
+            <aside class="service-aside-column">
+              <!-- Download Options -->
+              <div class="service-downloads" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+                <h3 class="aside-title">Opciones de descarga</h3>
+                <div class="download-buttons">
+                  <a href="#" class="download-btn">
+                    <i data-lucide="download" width="20" height="20"></i>
+                    Brochure General
+                  </a>
+                  <a href="#" class="download-btn">
+                    <i data-lucide="download" width="20" height="20"></i>
+                    Brochure Consultoría
+                  </a>
+                </div>
+              </div>
+
+              <!-- Other Services -->
+              <div class="service-others" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">
+                <h3 class="aside-title">Otros servicios</h3>
+                <ul class="other-services-list">
+                  <li><a href="obras-civiles.html">Obras Civiles</a></li>
+                  <li><a href="infraestructura.html">Infraestructura</a></li>
+                  <li><a href="electromecanica.html">Electromecánica</a></li>
+                  <li><a href="paisajismo.html">Paisajismo</a></li>
+                  <li><a href="mineria.html">Minería</a></li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Grid Section (mantener para mostrar otros servicios) -->
+      <section class="services-main">
+        <div class="container">
+          <div class="services-content">
+            <div class="services-grid">
+              <!-- Obras Civiles -->
+              <div
+                class="services-card"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="100"
+              >
+                <div
+                  class="services-image"
+                  style="
+                    background-image: url('./assets/imagenes/image_obra_civiles.webp');
+                  "
+                ></div>
+                <div class="services-overlay"></div>
+                <div class="services-card-content">
+                  <div class="services-icon">
+                    <i data-lucide="building" width="32" height="32"></i>
+                  </div>
+                  <h3 class="services-title">Obras Civiles</h3>
+                  <ul class="services-description">
+                    <li>
+                      Construcción de edificaciones residenciales y comerciales
+                    </li>
+                    <li>Estructuras de concreto armado y acero</li>
+                    <li>Rehabilitación y remodelación de infraestructuras</li>
+                  </ul>
+                  <button class="services-btn">
+                    Ver más
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Infraestructura -->
+              <div
+                class="services-card"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="200"
+              >
+                <div
+                  class="services-image"
+                  style="
+                    background-image: url('./assets/imagenes/image_infraestructura.webp');
+                  "
+                ></div>
+                <div class="services-overlay"></div>
+                <div class="services-card-content">
+                  <div class="services-icon">
+                    <i data-lucide="road" width="32" height="32"></i>
+                  </div>
+                  <h3 class="services-title">Infraestructura</h3>
+                  <ul class="services-description">
+                    <li>Construcción de carreteras y puentes</li>
+                    <li>Sistemas de drenaje y alcantarillado</li>
+                    <li>Obras portuarias y aeroportuarias</li>
+                  </ul>
+                  <button class="services-btn">
+                    Ver más
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Electromecánica -->
+              <div
+                class="services-card"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="300"
+              >
+                <div
+                  class="services-image"
+                  style="
+                    background-image: url('./assets/imagenes/image_electromecanica.webp');
+                  "
+                ></div>
+                <div class="services-overlay"></div>
+                <div class="services-card-content">
+                  <div class="services-icon">
+                    <i data-lucide="zap" width="32" height="32"></i>
+                  </div>
+                  <h3 class="services-title">Electromecánica</h3>
+                  <ul class="services-description">
+                    <li>Instalaciones eléctricas industriales y comerciales</li>
+                    <li>Sistemas de automatización y control</li>
+                    <li>Mantenimiento de equipos electromecánicos</li>
+                  </ul>
+                  <button class="services-btn">
+                    Ver más
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Paisajismo -->
+              <div
+                class="services-card"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="400"
+              >
+                <div
+                  class="services-image"
+                  style="
+                    background-image: url('./assets/imagenes/image_paisajismo.webp');
+                  "
+                ></div>
+                <div class="services-overlay"></div>
+                <div class="services-card-content">
+                  <div class="services-icon">
+                    <i data-lucide="trees" width="32" height="32"></i>
+                  </div>
+                  <h3 class="services-title">Paisajismo</h3>
+                  <ul class="services-description">
+                    <li>Diseño y construcción de áreas verdes</li>
+                    <li>Sistemas de riego automatizado</li>
+                    <li>Mantenimiento de espacios paisajísticos</li>
+                  </ul>
+                  <button class="services-btn">
+                    Ver más
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Minería -->
+              <div
+                class="services-card"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="500"
+              >
+                <div
+                  class="services-image"
+                  style="
+                    background-image: url('./assets/imagenes/image_mineria.webp');
+                  "
+                ></div>
+                <div class="services-overlay"></div>
+                <div class="services-card-content">
+                  <div class="services-icon">
+                    <i data-lucide="mountain" width="32" height="32"></i>
+                  </div>
+                  <h3 class="services-title">Minería</h3>
+                  <ul class="services-description">
+                    <li>Construcción de infraestructura minera</li>
+                    <li>Instalaciones de procesamiento de minerales</li>
+                    <li>Sistemas de transporte y almacenamiento</li>
+                  </ul>
+                  <button class="services-btn">
+                    Ver más
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Consultoría -->
+              <div
+                class="services-card"
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="600"
+              >
+                <div
+                  class="services-image"
+                  style="
+                    background-image: url('./assets/imagenes/image_consultoría.webp');
+                  "
+                ></div>
+                <div class="services-overlay"></div>
+                <div class="services-card-content">
+                  <div class="services-icon">
+                    <i data-lucide="clipboard-check" width="32" height="32"></i>
+                  </div>
+                  <h3 class="services-title">Consultoría</h3>
+                  <ul class="services-description">
+                    <li>Estudios de factibilidad y viabilidad</li>
+                    <li>Supervisión y control de calidad</li>
+                    <li>Gestión de proyectos y planificación</li>
+                  </ul>
+                  <button class="services-btn">
+                    Ver más
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Proceso de Trabajo -->
+      <section class="services-process">
+        <div class="container">
+          <div class="services-process-content">
+            <div
+              class="services-section-header"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p
+                class="section-subtitle"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                Nuestro Proceso
+              </p>
+              <h2 class="section-title" data-aos="fade-up" data-aos-delay="300">
+                Metodología de trabajo
+              </h2>
+            </div>
+
+            <div class="services-process-grid">
+              <!-- Proceso 01 -->
+              <div
+                class="services-process-item"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <div class="services-process-number">01</div>
+                <h3 class="services-process-title">
+                  Descubriendo e investigando
+                </h3>
+                <p class="services-process-description">
+                  Analizamos a fondo las necesidades del proyecto, realizamos
+                  estudios de factibilidad y evaluamos todos los aspectos
+                  técnicos y normativos para garantizar una base sólida.
+                </p>
+              </div>
+
+              <!-- Proceso 02 -->
+              <div
+                class="services-process-item"
+                data-aos="fade-right"
+                data-aos-delay="500"
+              >
+                <div class="services-process-number">02</div>
+                <h3 class="services-process-title">Planificación y diseño</h3>
+                <p class="services-process-description">
+                  Desarrollamos planos detallados, cronogramas de trabajo y
+                  especificaciones técnicas, asegurando que cada elemento esté
+                  perfectamente coordinado antes de la ejecución.
+                </p>
+              </div>
+
+              <!-- Proceso 03 -->
+              <div
+                class="services-process-item"
+                data-aos="fade-left"
+                data-aos-delay="600"
+              >
+                <div class="services-process-number">03</div>
+                <h3 class="services-process-title">Ejecución y construcción</h3>
+                <p class="services-process-description">
+                  Implementamos el proyecto con equipos especializados,
+                  supervisión constante y control de calidad en cada etapa,
+                  cumpliendo con los más altos estándares de seguridad.
+                </p>
+              </div>
+
+              <!-- Proceso 04 -->
+              <div
+                class="services-process-item"
+                data-aos="zoom-in"
+                data-aos-delay="700"
+              >
+                <div class="services-process-number">04</div>
+                <h3 class="services-process-title">Entrega y seguimiento</h3>
+                <p class="services-process-description">
+                  Realizamos las pruebas finales, entregamos la obra
+                  completamente funcional y brindamos soporte post-entrega para
+                  garantizar la satisfacción total del cliente.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Tecnología -->
+      <section class="services-technology">
+        <div class="container">
+          <div
+            class="services-technology-grid"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <!-- Card Supervisión y Control -->
+            <div
+              class="services-technology-card"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <div class="services-technology-image">
+                <img
+                  src="./assets/imagenes/tecnologia_control.jpg"
+                  alt="Tecnología de Supervisión y Control"
+                />
+              </div>
+              <div class="services-technology-content">
+                <h3 class="services-technology-title">
+                  Tecnología Aplicada a Supervisión y Control
+                </h3>
+                <p class="services-technology-description">
+                  Supervisión Inteligente - Control de Asistencia - Documentos
+                  Digitales - Drones - Lidar
+                </p>
+              </div>
+            </div>
+
+            <!-- Card BIM -->
+            <div
+              class="services-technology-card"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <div class="services-technology-image">
+                <img
+                  src="./assets/imagenes/tecnologia_bim.jpg"
+                  alt="Tecnología BIM"
+                />
+              </div>
+              <div class="services-technology-content">
+                <h3 class="services-technology-title">Tecnología BIM</h3>
+                <p class="services-technology-description">
+                  Impulsamos la gestión integral de proyectos con tecnología
+                  BIM, mejorando eficiencia en cada etapa del proceso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Columna 1: Logo + Slogan + Redes Sociales -->
+          <div class="footer-section footer-brand">
+            <div class="footer-logo">
+              <img
+                src="./assets/imagenes/logos/logo_inacons_white.svg"
+                alt="INACONS"
+              />
+            </div>
+            <p class="footer-slogan">
+              CONSTRUIMOS CONFIANZA<br />
+              INNOVAMOS ESPACIOS<br />
+              TRASCENDEMOS JUNTOS
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/www.inacons.com.pe"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i data-lucide="facebook" width="20" height="20"></i>
+              </a>
+              <a
+                href="https://pe.linkedin.com/company/inacons"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i data-lucide="linkedin" width="20" height="20"></i>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <i data-lucide="instagram" width="20" height="20"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Columna 2: Menú Principal -->
+          <div class="footer-section">
+            <h3>Navegación</h3>
+            <ul>
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./servicios.html">Servicios</a></li>
+              <li><a href="./proyectos.html">Proyectos</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Columna 3: Menú de Servicios -->
+          <div class="footer-section">
+            <h3>Servicios</h3>
+            <ul>
+              <li>
+                <a href="./servicios/obras-civiles.html">Obras Civiles</a>
+              </li>
+              <li>
+                <a href="./servicios/infraestructura.html">Infraestructura</a>
+              </li>
+              <li>
+                <a href="./servicios/electromecanica.html">Electromecánica</a>
+              </li>
+              <li><a href="./servicios/mineria.html">Minería</a></li>
+              <li><a href="./servicios/consultoria.html">Consultoría</a></li>
+              <li><a href="./servicios/paisajismo.html">Paisajismo</a></li>
+            </ul>
+          </div>
+
+          <!-- Columna 4: Contacto -->
+          <div class="footer-section">
+            <h3>Contacto</h3>
+            <ul>
+              <li>
+                <i data-lucide="mail" width="16" height="16"></i>
+                ventas@inacons.com.pe
+              </li>
+              <li>
+                <i data-lucide="phone" width="16" height="16"></i>
+                +51 064 654 736
+              </li>
+              <li>
+                <i data-lucide="map-pin" width="16" height="16"></i>
+                Av. Las Casuarinas 256 Pucusana - Lima
+              </li>
+              <li>
+                <i data-lucide="map-pin" width="16" height="16"></i>
+                Calle Casuarinas 112 El Tambo - Huancayo
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 INACONS. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+      <i data-lucide="chevron-up" width="24" height="24"></i>
+    </button>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: true,
+      });
+    </script>
+
+    <!-- Main JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swiper-init.js"></script>
+  </body>
+</html>

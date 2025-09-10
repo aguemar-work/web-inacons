@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      INACONS - Empresa Constructora | Obras Civiles, Infraestructura y
+      Consultoría
+    </title>
+    <meta
+      name="description"
+      content="INACONS, empresa constructora con más de 15 años de experiencia en obras civiles, infraestructura, paisajismo, electromecánica, minería y consultoría."
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+<body class="projects-page">
+     <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-left">
+          <div class="top-bar-contact">
+            <i data-lucide="mail" width="16" height="16"></i>
+            <span>ventas@inacons.com</span>
+          </div>
+          <div class="top-bar-contact">
+            <i data-lucide="phone" width="16" height="16"></i>
+            <span>+51 064 654 736</span>
+          </div>
+        </div>
+        <div class="top-bar-social">
+          <a
+            href="https://www.facebook.com/www.inacons.com.pe"
+            aria-label="Facebook"
+          >
+            <i data-lucide="facebook" width="16" height="16"></i>
+          </a>
+          <a
+            href="https://pe.linkedin.com/company/inacons"
+            aria-label="LinkedIn"
+          >
+            <i data-lucide="linkedin" width="16" height="16"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header with-topbar" id="header">
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/imagenes/logos/logo_inacons_white.svg"
+            alt="INACONS"
+            class="logo-white"
+          />
+          <img
+            src="./assets/imagenes/logos/logo_inacons.svg"
+            alt="INACONS"
+            class="logo-color"
+          />
+        </a>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li class="dropdown">
+              <a href="./servicios.html">Servicios</a>
+              <ul class="dropdown-menu">
+                <li><a href="./obras-civiles.html">Obras Civiles</a></li>
+                <li>
+                  <a href="./infraestructura.html">Infraestructura</a>
+                </li>
+                <li>
+                  <a href="./electromecanica.html">Electromecánica</a>
+                </li>
+                <li><a href="./paisajismo.html">Paisajismo</a></li>
+                <li><a href="./mineria.html">Minería</a></li>
+                <li><a href="./consultoria.html">Consultoría</a></li>
+              </ul>
+            </li>
+            <li><a href="./proyectos.html" class="active">Proyectos</a></li>
+            <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+          <i data-lucide="menu" width="24" height="24"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-content">
+        <button
+          class="mobile-menu-close"
+          id="mobileMenuClose"
+          aria-label="Cerrar menú"
+        >
+          <i data-lucide="x" width="24" height="24"></i>
+        </button>
+
+        <!-- Navigation -->
+        <nav class="mobile-nav">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./proyectos.html">Proyectos</a></li>
+            <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- CTA -->
+        <div class="mobile-cta">
+          <a href="#" class="btn btn-accent btn-large">Descargar Brochure</a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="mobile-contact">
+          <div class="mobile-contact-item">
+            <i data-lucide="mail" width="20" height="20"></i>
+            <span>ventas@inacons.com.pe</span>
+          </div>
+          <div class="mobile-contact-item">
+            <i data-lucide="phone" width="20" height="20"></i>
+            <span>+51 064 654 736</span>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="mobile-social">
+          <a href="#" aria-label="Facebook">
+            <i data-lucide="facebook" width="24" height="24"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i data-lucide="linkedin" width="24" height="24"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+              <section class="hero about-hero">
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+          <div class="about-hero-content">
+            <div class="about-hero-left">
+              <!-- Breadcrumbs -->
+              <nav class="breadcrumbs">
+                <a href="index.html">Inicio</a>
+                <span class="breadcrumb-separator">></span>
+                <span class="breadcrumb-current">Proyectos</span>
+              </nav>
+              <h2 class="about-subtitle">PROYECTOS</h2>
+              <h1 class="about-title">En toda superficie y condición</h1>
+            </div>
+            <div class="about-hero-right">
+              <div class="about-description">
+                <p>Desarrollamos proyectos de construcción y minería en los terrenos más desafiantes del Perú. Desde la costa hasta la sierra, adaptamos nuestras soluciones a cada geografía y condición climática.</p>
+                <p>Nuestro portafolio incluye más de 150 proyectos exitosos que demuestran nuestra capacidad de superar cualquier reto técnico y logístico, siempre con los más altos estándares de calidad y seguridad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Filter Section -->
+      <section class="projects-filter-section">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="projects-section-header" data-aos="fade-up" data-aos-duration="600">
+            <p class="section-subtitle">NUESTROS PROYECTOS</p>
+            <h2 class="section-title">Experiencia construida en cada obra</h2>
+          </div>
+          
+          <!-- Filter Buttons -->
+          <div class="projects-filter" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <button class="projects-filter-btn active" data-filter="all">Todos</button>
+            <button class="projects-filter-btn" data-filter="obras-civiles">Obras Civiles</button>
+            <button class="projects-filter-btn" data-filter="infraestructura">Infraestructura</button>
+            <button class="projects-filter-btn" data-filter="electromecanica">Electromecánica</button>
+            <button class="projects-filter-btn" data-filter="paisajismo">Paisajismo</button>
+            <button class="projects-filter-btn" data-filter="mineria">Minería</button>
+            <button class="projects-filter-btn" data-filter="consultoria">Consultoría</button>
+          </div>
+          
+          <!-- Projects Grid -->
+          <div class="projects-grid" id="projectsGrid">
+            <!-- Proyecto 1 - Obras Civiles -->
+            <div class="projects-card" data-category="obras-civiles" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+              <div class="projects-image" style="background-image: url('./assets/imagenes/image_proyecto_1.webp');"></div>
+              <div class="projects-overlay"></div>
+              <div class="projects-content">
+                <div class="projects-tag">Obras Civiles</div>
+                <div class="projects-info">
+                  <h3 class="projects-title">Complejo Residencial Las Torres</h3>
+                  <div class="projects-details">
+                    <div class="projects-detail">
+                      <i data-lucide="calendar" width="16" height="16"></i>
+                      <span>18 meses</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="dollar-sign" width="16" height="16"></i>
+                      <span>$2.5M</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="map-pin" width="16" height="16"></i>
+                      <span>Lima</span>
+                    </div>
+                  </div>
+                  <button class="projects-btn">
+                    Ver proyecto
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Proyecto 2 - Infraestructura -->
+            <div class="projects-card" data-category="infraestructura">
+              <div class="projects-image" style="background-image: url('./assets/imagenes/image_proyecto_2.webp');"></div>
+              <div class="projects-overlay"></div>
+              <div class="projects-content">
+                <div class="projects-tag">Infraestructura</div>
+                <div class="projects-info">
+                  <h3 class="projects-title">Puente Vehicular Huancayo</h3>
+                  <div class="projects-details">
+                    <div class="projects-detail">
+                      <i data-lucide="calendar" width="16" height="16"></i>
+                      <span>12 meses</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="dollar-sign" width="16" height="16"></i>
+                      <span>$1.8M</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="map-pin" width="16" height="16"></i>
+                      <span>Huancayo</span>
+                    </div>
+                  </div>
+                  <button class="projects-btn">
+                    Ver proyecto
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Proyecto 3 - Electromecánica -->
+            <div class="projects-card" data-category="electromecanica">
+              <div class="projects-image" style="background-image: url('./assets/imagenes/image_proyecto_3.webp');"></div>
+              <div class="projects-overlay"></div>
+              <div class="projects-content">
+                <div class="projects-tag">Electromecánica</div>
+                <div class="projects-info">
+                  <h3 class="projects-title">Sistema Eléctrico Industrial</h3>
+                  <div class="projects-details">
+                    <div class="projects-detail">
+                      <i data-lucide="calendar" width="16" height="16"></i>
+                      <span>8 meses</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="dollar-sign" width="16" height="16"></i>
+                      <span>$950K</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="map-pin" width="16" height="16"></i>
+                      <span>Arequipa</span>
+                    </div>
+                  </div>
+                  <button class="projects-btn">
+                    Ver proyecto
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Proyecto 4 - Paisajismo -->
+            <div class="projects-card" data-category="paisajismo">
+              <div class="projects-image" style="background-image: url('./assets/imagenes/image_proyecto_4.webp');"></div>
+              <div class="projects-overlay"></div>
+              <div class="projects-content">
+                <div class="projects-tag">Paisajismo</div>
+                <div class="projects-info">
+                  <h3 class="projects-title">Parque Ecológico Central</h3>
+                  <div class="projects-details">
+                    <div class="projects-detail">
+                      <i data-lucide="calendar" width="16" height="16"></i>
+                      <span>6 meses</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="dollar-sign" width="16" height="16"></i>
+                      <span>$720K</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="map-pin" width="16" height="16"></i>
+                      <span>Cusco</span>
+                    </div>
+                  </div>
+                  <button class="projects-btn">
+                    Ver proyecto
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Proyecto 5 - Minería -->
+            <div class="projects-card" data-category="mineria">
+              <div class="projects-image" style="background-image: url('./assets/imagenes/image_proyecto_5.webp');"></div>
+              <div class="projects-overlay"></div>
+              <div class="projects-content">
+                <div class="projects-tag">Minería</div>
+                <div class="projects-info">
+                  <h3 class="projects-title">Planta Procesadora Minera</h3>
+                  <div class="projects-details">
+                    <div class="projects-detail">
+                      <i data-lucide="calendar" width="16" height="16"></i>
+                      <span>24 meses</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="dollar-sign" width="16" height="16"></i>
+                      <span>$4.2M</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="map-pin" width="16" height="16"></i>
+                      <span>Cajamarca</span>
+                    </div>
+                  </div>
+                  <button class="projects-btn">
+                    Ver proyecto
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Proyecto 6 - Consultoría -->
+            <div class="projects-card" data-category="consultoria">
+              <div class="projects-image" style="background-image: url('./assets/imagenes/image_proyecto_6.webp');"></div>
+              <div class="projects-overlay"></div>
+              <div class="projects-content">
+                <div class="projects-tag">Consultoría</div>
+                <div class="projects-info">
+                  <h3 class="projects-title">Estudio de Factibilidad Vial</h3>
+                  <div class="projects-details">
+                    <div class="projects-detail">
+                      <i data-lucide="calendar" width="16" height="16"></i>
+                      <span>4 meses</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="dollar-sign" width="16" height="16"></i>
+                      <span>$180K</span>
+                    </div>
+                    <div class="projects-detail">
+                      <i data-lucide="map-pin" width="16" height="16"></i>
+                      <span>Trujillo</span>
+                    </div>
+                  </div>
+                  <button class="projects-btn">
+                    Ver proyecto
+                    <i data-lucide="arrow-right" width="16" height="16"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+        <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Columna 1: Logo + Slogan + Redes Sociales -->
+          <div class="footer-section footer-brand">
+            <div class="footer-logo">
+              <img
+                src="./assets/imagenes/logos/logo_inacons_white.svg"
+                alt="INACONS"
+              />
+            </div>
+            <p class="footer-slogan">
+              CONSTRUIMOS CONFIANZA<br />
+              INNOVAMOS ESPACIOS<br />
+              TRASCENDEMOS JUNTOS
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/www.inacons.com.pe"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i data-lucide="facebook" width="20" height="20"></i>
+              </a>
+              <a
+                href="https://pe.linkedin.com/company/inacons"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i data-lucide="linkedin" width="20" height="20"></i>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <i data-lucide="instagram" width="20" height="20"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Columna 2: Menú Principal -->
+          <div class="footer-section">
+            <h3>Navegación</h3>
+            <ul>
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./servicios.html">Servicios</a></li>
+              <li><a href="./proyectos.html">Proyectos</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Columna 3: Menú de Servicios -->
+          <div class="footer-section">
+            <h3>Servicios</h3>
+            <ul>
+              <li><a href="./servicios/obras-civiles.html">Obras Civiles</a></li>
+              <li><a href="./servicios/infraestructura.html">Infraestructura</a></li>
+              <li><a href="./servicios/electromecanica.html">Electromecánica</a></li>
+              <li><a href="./servicios/mineria.html">Minería</a></li>
+              <li><a href="./servicios/consultoria.html">Consultoría</a></li>
+              <li><a href="./servicios/paisajismo.html">Paisajismo</a></li>
+            </ul>
+          </div>
+
+          <!-- Columna 4: Contacto -->
+          <div class="footer-section">
+            <h3>Contacto</h3>
+            <ul>
+              <li>
+                <i data-lucide="mail" width="16" height="16"></i>
+                ventas@inacons.com.pe
+              </li>
+              <li>
+                <i data-lucide="phone" width="16" height="16"></i>
+                +51 064 654 736
+              </li>
+              <li>
+                <i data-lucide="map-pin" width="16" height="16"></i>
+                Av. Las Casuarinas 256 Pucusana - Lima
+              </li>
+              <li>
+                <i data-lucide="map-pin" width="16" height="16"></i>
+                Calle Casuarinas 112 El Tambo - Huancayo
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 INACONS. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+      <i data-lucide="chevron-up" width="24" height="24"></i>
+    </button>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true
+      });
+    </script>
+
+    <!-- Main JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swiper-init.js"></script>
+    <script src="assets/js/projects-filter.js"></script>
+</body>
+</html>
