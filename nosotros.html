@@ -11,12 +11,24 @@
       name="description"
       content="INACONS, empresa constructora con más de 15 años de experiencia en obras civiles, infraestructura, paisajismo, electromecánica, minería y consultoría."
     />
+    <meta name="keywords" content="constructora, obras civiles, infraestructura, paisajismo, electromecánica, minería, consultoría, construcción">
+<meta name="author" content="INACONS">
+    <meta name="copyright" content="INACONS">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet">
 
     <!-- Swiper CSS -->
     <link
@@ -26,11 +38,12 @@
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- AOS CSS -->
+    <!-- AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css"/>
   </head>
   <body>
     <!-- Top Bar -->
@@ -47,17 +60,29 @@
           </div>
         </div>
         <div class="top-bar-social">
+           <a
+            href="https://wa.me/51948888070?text=Hola%20INACONS%2C%20estoy%20interesado%20en%20..."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
           <a
             href="https://www.facebook.com/www.inacons.com.pe"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Facebook"
           >
-            <i data-lucide="facebook" width="16" height="16"></i>
+            <i class="fa-brands fa-facebook-f"></i>
           </a>
           <a
             href="https://pe.linkedin.com/company/inacons"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
-            <i data-lucide="linkedin" width="16" height="16"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
       </div>
@@ -84,7 +109,7 @@
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="./nosotros.html" class="active">Nosotros</a></li>
             <li class="dropdown">
-              <a href="./servicios.html">Servicios</a>
+              <a href="./servicios.html">Operaciones</a>
               <ul class="dropdown-menu">
                 <li>
                   <a href="./obras-civiles.html">Obras Civiles</a>
@@ -102,6 +127,8 @@
             </li>
             <li><a href="./proyectos.html">Proyectos</a></li>
             <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="./certificacion.html">Certificación</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
           </ul>
         </nav>
@@ -129,9 +156,11 @@
           <ul>
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./servicios.html">Operaciones</a></li>
             <li><a href="./proyectos.html">Proyectos</a></li>
             <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="./certificacion.html">Certificación</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
           </ul>
         </nav>
@@ -202,6 +231,17 @@
         </div>
       </section>
 
+         <!-- Slogan Section -->
+      <section class="about-slogan-section">
+        <div class="container">
+          <h1 class="about-slogan-title">
+            CONSTRUIMOS CONFIANZA<br>
+            INNOVAMOS ESPACIOS<br>
+            TRASCENDEMOS JUNTOS
+          </h1>
+        </div>
+      </section>
+
       <!-- Principles Section -->
       <section class="about-principles">
         <div class="container">
@@ -217,15 +257,8 @@
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  Nuestros Principios
+                  Ingeniería que Construye
                 </p>
-                <h2
-                  class="about-principles-title"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  Lo que nos define como empresa
-                </h2>
               </div>
 
               <div class="about-principles-content-text">
@@ -256,17 +289,41 @@
                   </p>
                 </div>
 
-                <div
-                  class="about-principle-section"
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                >
-                  <h3 class="about-principle-heading">Objetivos</h3>
-                  <p class="about-principle-text">
-                    Liderar el mercado de la construcción con proyectos innovadores,
-                    mantener los más altos estándares de calidad y contribuir al
-                    desarrollo sostenible de nuestro entorno.
-                  </p>
+                <!-- Values Section moved here -->
+                <div class="about-values-section" data-aos="fade-up" data-aos-delay="600">
+                  <h3 class="about-principle-heading">Nuestros Valores</h3>
+                  <div class="about-values-grid">
+                    <div class="about-value-card">
+                      <div class="about-value-icon">
+                        <i data-lucide="shield-check" width="28" height="28"></i>
+                      </div>
+                      <div class="about-value-text">Confianza</div>
+                    </div>
+                    <div class="about-value-card">
+                      <div class="about-value-icon">
+                        <i data-lucide="lightbulb" width="28" height="28"></i>
+                      </div>
+                      <div class="about-value-text">Innovación</div>
+                    </div>
+                    <div class="about-value-card">
+                      <div class="about-value-icon">
+                        <i data-lucide="trending-up" width="28" height="28"></i>
+                      </div>
+                      <div class="about-value-text">Trascender</div>
+                    </div>
+                    <div class="about-value-card">
+                      <div class="about-value-icon">
+                        <i data-lucide="heart" width="28" height="28"></i>
+                      </div>
+                      <div class="about-value-text">Lealtad</div>
+                    </div>
+                    <div class="about-value-card">
+                      <div class="about-value-icon">
+                        <i data-lucide="users" width="28" height="28"></i>
+                      </div>
+                      <div class="about-value-text">Identificación</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -277,7 +334,7 @@
               data-aos-delay="800"
             >
               <img
-                src="/assets/imagenes/about_team.webp"
+                src="/assets/imagenes/about_section.webp"
                 alt="Equipo INACONS"
               />
             </div>
@@ -285,46 +342,7 @@
         </div>
       </section>
 
-      <!-- Values Section -->
-      <section class="about-values">
-        <div class="container">
-          <div class="about-values-header">
-            <h2 class="about-values-title">Nuestros Valores</h2>
-          </div>
-          <div class="about-values-grid" data-aos="fade-up" data-aos-delay="400">
-            <div class="about-value-card">
-              <div class="about-value-icon">
-                <i data-lucide="shield-check" width="28" height="28"></i>
-              </div>
-              <div class="about-value-text">Confianza</div>
-            </div>
-            <div class="about-value-card">
-              <div class="about-value-icon">
-                <i data-lucide="lightbulb" width="28" height="28"></i>
-              </div>
-              <div class="about-value-text">Innovación</div>
-            </div>
-            <div class="about-value-card">
-              <div class="about-value-icon">
-                <i data-lucide="trending-up" width="28" height="28"></i>
-              </div>
-              <div class="about-value-text">Trascender</div>
-            </div>
-            <div class="about-value-card">
-              <div class="about-value-icon">
-                <i data-lucide="heart" width="28" height="28"></i>
-              </div>
-              <div class="about-value-text">Lealtad</div>
-            </div>
-            <div class="about-value-card">
-              <div class="about-value-icon">
-                <i data-lucide="users" width="28" height="28"></i>
-              </div>
-              <div class="about-value-text">Identificación</div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       <!-- Differentiators Section -->
       <section class="about-differentiators">
@@ -417,61 +435,6 @@
         </div>
       </section>
 
-      <!-- Certifications Section -->
-      <section class="about-certifications">
-        <div class="container">
-          <div class="about-certifications-content">
-            <!-- Texto -->
-            <div class="about-certifications-text">
-              <h2 class="about-section-title">
-                En INACONS contamos con un Sistema de Gestión Integrado
-              </h2>
-              <p class="about-section-description">
-                En INACONS, trabajamos bajo los más altos estándares
-                internacionales, asegurando procesos eficientes, sostenibles y
-                transparentes. Nuestras certificaciones ISO respaldan nuestro
-                compromiso con la calidad, la responsabilidad ambiental, la
-                seguridad en el trabajo y la gestión ética. Estas
-                certificaciones reflejan nuestro esfuerzo constante por mejorar
-                y ofrecer soluciones confiables y responsables.
-              </p>
-            </div>
-
-            <!-- Logos de Certificaciones -->
-            <div class="about-certifications-logos">
-              <div class="about-certification-item">
-                <img
-                  src="/assets/imagenes/logos/iso_9001.png"
-                  alt="ISO 9001 - Sistema de Gestión de Calidad"
-                  class="about-certification-logo"
-                />
-              </div>
-              <div class="about-certification-item">
-                <img
-                  src="/assets/imagenes/logos/iso_14001.png"
-                  alt="ISO 14001 - Sistema de Gestión Ambiental"
-                  class="about-certification-logo"
-                />
-              </div>
-              <div class="about-certification-item">
-                <img
-                  src="/assets/imagenes/logos/iso_45001.png"
-                  alt="ISO 45001 - Sistema de Gestión de Seguridad y Salud"
-                  class="about-certification-logo"
-                />
-              </div>
-              <div class="about-certification-item">
-                <img
-                  src="/assets/imagenes/logos/iso_37001.png"
-                  alt="ISO 45001 - Sistema de Gestión de Seguridad y Salud"
-                  class="about-certification-logo"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Clients Section -->
       <section class="about-clients">
         <div class="container">
@@ -516,42 +479,6 @@
                   <!-- Slide 1 -->
                   <div class="swiper-slide">
                     <div class="clients-grid">
-                      <div class="client-logo-item">
-                        <img
-                          src="/assets/imagenes/image_cliente_1.webp"
-                          alt="Cliente 1"
-                        />
-                      </div>
-                      <div class="client-logo-item">
-                        <img
-                          src="/assets/imagenes/image_cliente_2.webp"
-                          alt="Cliente 2"
-                        />
-                      </div>
-                      <div class="client-logo-item">
-                        <img
-                          src="/assets/imagenes/image_cliente_3.webp"
-                          alt="Cliente 3"
-                        />
-                      </div>
-                      <div class="client-logo-item">
-                        <img
-                          src="/assets/imagenes/image_cliente_4.webp"
-                          alt="Cliente 4"
-                        />
-                      </div>
-                      <div class="client-logo-item">
-                        <img
-                          src="/assets/imagenes/image_cliente_5.webp"
-                          alt="Cliente 5"
-                        />
-                      </div>
-                      <div class="client-logo-item">
-                        <img
-                          src="/assets/imagenes/image_cliente_6.webp"
-                          alt="Cliente 6"
-                        />
-                      </div>
                       <div class="client-logo-item">
                         <img
                           src="/assets/imagenes/clientes/cliente_electrocentro.png"
@@ -680,28 +607,42 @@
             </p>
             <div class="footer-social">
               <a
+                href="https://wa.me/51948888070?text=Hola%20INACONS%2C%20estoy%20interesado%20en%20..."
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
                 href="https://www.facebook.com/www.inacons.com.pe"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
               >
-                <i data-lucide="facebook" width="20" height="20"></i>
+                <i class="fa-brands fa-facebook-f"></i>
               </a>
               <a
                 href="https://pe.linkedin.com/company/inacons"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <i data-lucide="linkedin" width="20" height="20"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="#" aria-label="Instagram">
-                <i data-lucide="instagram" width="20" height="20"></i>
+              <a
+                href="https://www.instagram.com/inacons/?hl=es"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
               </a>
             </div>
           </div>
 
           <!-- Columna 2: Menú Principal -->
           <div class="footer-section">
-            <h3>Navegación</h3>
             <ul>
               <li><a href="./index.html">Inicio</a></li>
               <li><a href="./nosotros.html">Nosotros</a></li>
@@ -715,18 +656,12 @@
           <div class="footer-section">
             <h3>Servicios</h3>
             <ul>
-              <li>
-                <a href="./servicios/obras-civiles.html">Obras Civiles</a>
-              </li>
-              <li>
-                <a href="./servicios/infraestructura.html">Infraestructura</a>
-              </li>
-              <li>
-                <a href="./servicios/electromecanica.html">Electromecánica</a>
-              </li>
-              <li><a href="./servicios/mineria.html">Minería</a></li>
-              <li><a href="./servicios/consultoria.html">Consultoría</a></li>
-              <li><a href="./servicios/paisajismo.html">Paisajismo</a></li>
+              <li><a href="./obras-civiles.html">Obras Civiles</a></li>
+              <li><a href="./infraestructura.html">Infraestructura</a></li>
+              <li><a href="./electromecanica.html">Electromecánica</a></li>
+              <li><a href="./mineria.html">Minería</a></li>
+              <li><a href="./consultoria.html">Consultoría</a></li>
+              <li><a href="./paisajismo.html">Paisajismo</a></li>
             </ul>
           </div>
 
@@ -735,19 +670,19 @@
             <h3>Contacto</h3>
             <ul>
               <li>
-                <i data-lucide="mail" width="16" height="16"></i>
+                <i class="fas fa-envelope"></i>
                 ventas@inacons.com.pe
               </li>
               <li>
-                <i data-lucide="phone" width="16" height="16"></i>
+                <i class="fas fa-phone"></i>
                 +51 064 654 736
               </li>
               <li>
-                <i data-lucide="map-pin" width="16" height="16"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 Av. Las Casuarinas 256 Pucusana - Lima
               </li>
               <li>
-                <i data-lucide="map-pin" width="16" height="16"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 Calle Casuarinas 112 El Tambo - Huancayo
               </li>
             </ul>
@@ -762,7 +697,7 @@
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
-      <i data-lucide="chevron-up" width="24" height="24"></i>
+      <i class="fas fa-chevron-up"></i>
     </button>
 
     <!-- Swiper JS -->
@@ -778,57 +713,7 @@
       });
     </script>
 
-    <!-- Clients Carousel JavaScript -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Initialize Clients Swiper
-        const clientsSwiper = new Swiper(".clients-swiper", {
-          slidesPerView: 1,
-          spaceBetween: 0,
-          loop: true,
-          autoplay: {
-            delay: 4000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          navigation: {
-            nextEl: ".clients-btn-next",
-            prevEl: ".clients-btn-prev",
-          },
-          breakpoints: {
-            768: {
-              slidesPerView: 1,
-              spaceBetween: 0,
-            },
-          },
-          on: {
-            init: function () {
-              // Initialize Lucide icons
-              if (typeof lucide !== "undefined") {
-                lucide.createIcons();
-              }
-            },
-          },
-        });
 
-        // Pause autoplay on hover for individual logo items
-        const logoItems = document.querySelectorAll(".client-logo-item");
-        logoItems.forEach((item) => {
-          item.addEventListener("mouseenter", () => {
-            clientsSwiper.autoplay.stop();
-          });
-
-          item.addEventListener("mouseleave", () => {
-            clientsSwiper.autoplay.start();
-          });
-        });
-
-        // Touch/swipe support for mobile
-        if (window.innerWidth <= 767) {
-          clientsSwiper.allowTouchMove = true;
-        }
-      });
-    </script>
 
     <!-- Main JavaScript -->
     <script src="assets/js/main.js"></script>

@@ -11,12 +11,24 @@
       name="description"
       content="INACONS, empresa constructora con más de 15 años de experiencia en obras civiles, infraestructura, paisajismo, electromecánica, minería y consultoría."
     />
+    <meta name="keywords" content="constructora, obras civiles, infraestructura, paisajismo, electromecánica, minería, consultoría, construcción">
+<meta name="author" content="INACONS">
+    <meta name="copyright" content="INACONS">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet">
 
     <!-- Swiper CSS -->
     <link
@@ -26,11 +38,12 @@
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- AOS CSS -->
+    <!-- AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css"/>
   </head>
   <body class="contact-page">
     <!-- Top Bar -->
@@ -48,16 +61,27 @@
         </div>
         <div class="top-bar-social">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a
             href="https://www.facebook.com/www.inacons.com.pe"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Facebook"
           >
-            <i data-lucide="facebook" width="16" height="16"></i>
+            <i class="fa-brands fa-facebook-f"></i>
           </a>
           <a
             href="https://pe.linkedin.com/company/inacons"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
-            <i data-lucide="linkedin" width="16" height="16"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
       </div>
@@ -84,7 +108,7 @@
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="./nosotros.html">Nosotros</a></li>
             <li class="dropdown">
-              <a href="./servicios.html">Servicios</a>
+              <a href="./servicios.html">Operaciones</a>
               <ul class="dropdown-menu">
                 <li>
                 <a href="./obras-civiles.html">Obras Civiles</a>
@@ -102,6 +126,8 @@
             </li>
             <li><a href="./proyectos.html">Proyectos</a></li>
             <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="./certificacion.html">Certificación</a></li>
             <li><a href="./contacto.html" class="active">Contacto</a></li>
           </ul>
         </nav>
@@ -129,9 +155,11 @@
           <ul>
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./servicios.html">Operaciones</a></li>
             <li><a href="./proyectos.html">Proyectos</a></li>
             <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="./certificacion.html">Certificación</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
           </ul>
         </nav>
@@ -226,20 +254,23 @@
                   <p class="contact-info-detail">+51 064 654 736</p>
                 </div>
 
-                <div class="contact-info-card">
-                  <div class="contact-info-icon">
-                    <i data-lucide="share-2" width="32" height="32"></i>
-                  </div>
-                  <h3 class="contact-info-title">Redes Sociales</h3>
+                <div class="contact-info-card">                 
+                  <h3 class="contact-info-title">Comunícate en:</h3>
                   <div class="contact-social-links">
                     <a
                       href="https://www.facebook.com/www.inacons.com.pe"
                       class="contact-social-link"
                     >
-                      <i data-lucide="facebook" width="20" height="20"></i>
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a
+                      href="https://www.facebook.com/www.inacons.com.pe"
+                      class="contact-social-link"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
                     </a>
                     <a href="#" class="contact-social-link">
-                      <i data-lucide="linkedin" width="20" height="20"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                   </div>
                 </div>
@@ -260,7 +291,7 @@
               </div>
 
               <div class="contact-form-container">
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form" id="form">
                   <div class="contact-form-row">
                     <div class="contact-form-group">
                       <label for="fullName">Nombre Completo *</label>
@@ -308,10 +339,7 @@
                     ></textarea>
                   </div>
 
-                  <button type="submit" class="contact-btn contact-btn-primary">
-                    Enviar Mensaje
-                    <i data-lucide="send" width="16" height="16"></i>
-                  </button>
+                  <input type="submit" id="button" value="Enviar Mensaje" class="contact-btn contact-btn-primary" />
                 </form>
               </div>
             </div>
@@ -354,7 +382,7 @@
 
             <div class="location-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8234567890123!2d-76.7967890!3d-12.4833330!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDI5JzAwLjAiUyA3NsKwNDcnNDguNCJX!5e0!3m2!1ses!2spe!4v1234567890123!5m2!1ses!2spe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d300.22292866859664!2d-76.73602835672743!3d-12.475906069847317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910575ff986fe5c3%3A0xba45c58b4515799d!2sVelimaq!5e1!3m2!1ses!2spe!4v1758301077401!5m2!1ses!2spe"
                 width="100%"
                 height="400"
                 style="border: 0; border-radius: 12px"
@@ -439,28 +467,42 @@
             </p>
             <div class="footer-social">
               <a
+                href="https://wa.me/51948888070?text=Hola%20INACONS%2C%20estoy%20interesado%20en%20..."
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
                 href="https://www.facebook.com/www.inacons.com.pe"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
               >
-                <i data-lucide="facebook" width="20" height="20"></i>
+                <i class="fa-brands fa-facebook-f"></i>
               </a>
               <a
                 href="https://pe.linkedin.com/company/inacons"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <i data-lucide="linkedin" width="20" height="20"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="#" aria-label="Instagram">
-                <i data-lucide="instagram" width="20" height="20"></i>
+              <a
+                href="https://www.instagram.com/inacons/?hl=es"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
               </a>
             </div>
           </div>
 
           <!-- Columna 2: Menú Principal -->
           <div class="footer-section">
-            <h3>Navegación</h3>
             <ul>
               <li><a href="./index.html">Inicio</a></li>
               <li><a href="./nosotros.html">Nosotros</a></li>
@@ -494,19 +536,19 @@
             <h3>Contacto</h3>
             <ul>
               <li>
-                <i data-lucide="mail" width="16" height="16"></i>
+                <i class="fas fa-envelope"></i>
                 ventas@inacons.com.pe
               </li>
               <li>
-                <i data-lucide="phone" width="16" height="16"></i>
+                <i class="fas fa-phone"></i>
                 +51 064 654 736
               </li>
               <li>
-                <i data-lucide="map-pin" width="16" height="16"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 Av. Las Casuarinas 256 Pucusana - Lima
               </li>
               <li>
-                <i data-lucide="map-pin" width="16" height="16"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 Calle Casuarinas 112 El Tambo - Huancayo
               </li>
             </ul>
@@ -521,7 +563,7 @@
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
-      <i data-lucide="chevron-up" width="24" height="24"></i>
+      <i class="fas fa-chevron-up"></i>
     </button>
 
     <!-- Swiper JS -->
@@ -540,5 +582,14 @@
     <!-- Main JavaScript -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/swiper-init.js"></script>
+    <script src="assets/js/email.js"></script>
+    <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+></script>
+
+<script type="text/javascript">
+  emailjs.init("Qe73aZPobDxGeHdGc")
+    </script>
   </body>
 </html>

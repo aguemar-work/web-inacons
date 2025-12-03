@@ -11,12 +11,24 @@
       name="description"
       content="INACONS, empresa constructora con más de 15 años de experiencia en obras civiles, infraestructura, paisajismo, electromecánica, minería y consultoría."
     />
+    <meta name="keywords" content="constructora, obras civiles, infraestructura, paisajismo, electromecánica, minería, consultoría, construcción">
+<meta name="author" content="INACONS">
+    <meta name="copyright" content="INACONS">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet">
 
     <!-- Swiper CSS -->
     <link
@@ -26,6 +38,7 @@
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -47,13 +60,21 @@
           </div>
         </div>
         <div class="top-bar-social">
+           <a
+            href="https://wa.me/51948888070?text=Hola%20INACONS%2C%20estoy%20interesado%20en%20..."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
           <a
             href="https://www.facebook.com/www.inacons.com.pe"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
           >
-            <i data-lucide="facebook" width="16" height="16"></i>
+            <i class="fa-brands fa-facebook-f"></i>
           </a>
           <a
             href="https://pe.linkedin.com/company/inacons"
@@ -61,7 +82,7 @@
             rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
-            <i data-lucide="linkedin" width="16" height="16"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
       </div>
@@ -88,7 +109,7 @@
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="./nosotros.html">Nosotros</a></li>
             <li class="dropdown">
-              <a href="./servicios.html">Servicios</a>
+              <a href="./servicios.html">Operaciones</a>
               <ul class="dropdown-menu">
                 <li>
                   <a href="./obras-civiles.html">Obras Civiles</a>
@@ -106,6 +127,8 @@
             </li>
             <li><a href="./proyectos.html">Proyectos</a></li>
             <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="./certificacion.html">Certificación</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
           </ul>
         </nav>
@@ -133,9 +156,11 @@
           <ul>
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./servicios.html">Operaciones</a></li>
             <li><a href="./proyectos.html">Proyectos</a></li>
             <li><a href="./sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="./documentacion.html">Documentación</a></li>
+            <li><a href="./certificacion.html">Certificación</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
           </ul>
         </nav>
@@ -198,10 +223,7 @@
             </span>
           </h1>
           <p>
-            Con más de 15 años de experiencia en el sector construcción, somos
-            líderes en obras civiles, infraestructura y consultoría
-            especializada.
-          </p>
+            Con más de 15 años de experiencia en ingeniería y construcción.          </p>
         </div>
 
         <!-- Hero Indicators -->
@@ -270,7 +292,7 @@
               data-aos-duration="800"
             >
               <img
-                src="/assets/imagenes/home_about.png"
+                src="/assets/imagenes/home_about.webp"
                 alt="Equipo INACONS trabajando en construcción"
               />
             </div>
@@ -281,125 +303,95 @@
       <!-- Projects Section -->
       <section class="home-projects">
         <div class="container">
-          <div class="section-title" data-aos="fade-up" data-aos-duration="600">
-            <h2>Nuestros Proyectos</h2>
-            <p>Descubre algunos de nuestros proyectos más destacados</p>
+          <div class="regional-experience">
+            <div class="regional-experience-content">
+              <div class="regional-map" data-aos="fade-right" data-aos-duration="800">
+                <img src="./assets/imagenes/peru2.svg" alt="Mapa del Perú" class="peru-map">
+              </div>
+              <div class="regional-info" data-aos="fade-left" data-aos-duration="800">
+                <p class="section-subtitle">Experiencia Regional</p>
+                <h2 class="section-title">NUESTRA EXPERIENCIA EN CADA REGIÓN</h2>
+                <p class="section-description">
+                  Presentes en las operaciones de ingeniería y construcción más importantes del país, 
+                  con más de 30 zonas de trabajo en simultáneo
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
 
-          <div
-            class="swiper-container swiper projects-swiper"
-            id="projectsSwiper"
-          >
-            <div class="swiper-wrapper">
-              <!-- Project Card 1 -->
-              <div class="swiper-slide">
-                <div
-                  class="home-project-card"
-                  style="
-                    background-image: url('/assets/imagenes/projects/project1.webp');
-                  "
-                >
-                  <div class="home-project-overlay">
-                    <div class="home-project-info">
-                      <h3 class="project-name">Edificio Corporativo</h3>
-                      <p class="project-location">Lima, Perú</p>
-                    </div>
-                  </div>
+      <!-- Info Carousel Section -->
+      <section class="info-carousel-section">
+        <div class="container">
+          <div class="info-carousel">
+            <div class="info-carousel-track">
+              <!-- Slide 1: Nuestros servicios -->
+              <div class="info-carousel-slide active">
+                <div class="info-carousel-image">
+                  <img src="/assets/imagenes/home_about.webp" alt="Nuestros servicios">
+                </div>
+                <div class="info-carousel-content">
+                  <h2 class="info-carousel-title">Nuestros servicios</h2>
+                  <p class="info-carousel-description">
+                    Transformamos desafíos en oportunidades, ofreciendo soluciones integrales 
+                    en construcción, infraestructura y consultoría. Nuestro equipo especializado 
+                    trabaja con metodologías innovadoras para garantizar proyectos exitosos que 
+                    superan las expectativas de nuestros clientes.
+                  </p>
+                  <a href="./servicios.html" class="btn btn-accent">Ver Operaciones</a>
                 </div>
               </div>
 
-              <!-- Project Card 2 -->
-              <div class="swiper-slide">
-                <div
-                  class="home-project-card"
-                  style="
-                    background-image: url('/assets/imagenes/projects/project2.webp');
-                  "
-                >
-                  <div class="home-project-overlay">
-                    <div class="home-project-info">
-                      <h3 class="project-name">Puente Vehicular</h3>
-                      <p class="project-location">Arequipa, Perú</p>
-                    </div>
-                  </div>
+              <!-- Slide 2: Nuestras Alianzas -->
+              <div class="info-carousel-slide">
+                <div class="info-carousel-image">
+                  <img src="/assets/imagenes/home_about.webp" alt="Nuestras Alianzas">
+                </div>
+                <div class="info-carousel-content">
+                  <h2 class="info-carousel-title">Nuestras Alianzas</h2>
+                  <p class="info-carousel-description">
+                    Contamos con certificaciones internacionales y alianzas estratégicas que 
+                    respaldan nuestro compromiso con la calidad. Trabajamos con los más altos 
+                    estándares de la industria para asegurar la excelencia en cada proyecto 
+                    que desarrollamos.
+                  </p>
+                  <a href="./certificacion.html" class="btn btn-accent">Ver todas las certificaciones</a>
                 </div>
               </div>
 
-              <!-- Project Card 3 -->
-              <div class="swiper-slide">
-                <div
-                  class="home-project-card"
-                  style="
-                    background-image: url('/assets/imagenes/projects/project3.webp');
-                  "
-                >
-                  <div class="home-project-overlay">
-                    <div class="home-project-info">
-                      <h3 class="project-name">Carretera Nacional</h3>
-                      <p class="project-location">Cusco, Perú</p>
-                    </div>
-                  </div>
+              <!-- Slide 3: Nuestro compromiso -->
+              <div class="info-carousel-slide">
+                <div class="info-carousel-image">
+                  <img src="/assets/imagenes/home_about.webp" alt="Nuestro compromiso">
                 </div>
-              </div>
-
-              <!-- Project Card 4 -->
-              <div class="swiper-slide">
-                <div
-                  class="home-project-card"
-                  style="
-                    background-image: url('/assets/imagenes/projects/project4.webp');
-                  "
-                >
-                  <div class="home-project-overlay">
-                    <div class="home-project-info">
-                      <h3 class="project-name">Hospital Regional</h3>
-                      <p class="project-location">Trujillo, Perú</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Project Card 5 -->
-              <div class="swiper-slide">
-                <div
-                  class="home-project-card"
-                  style="
-                    background-image: url('/assets/imagenes/projects/project1.webp');
-                  "
-                >
-                  <div class="home-project-overlay">
-                    <div class="home-project-info">
-                      <h3 class="project-name">Centro Educativo</h3>
-                      <p class="project-location">Piura, Perú</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Project Card 6 -->
-              <div class="swiper-slide">
-                <div
-                  class="home-project-card"
-                  style="
-                    background-image: url('/assets/imagenes/projects/project2.webp');
-                  "
-                >
-                  <div class="home-project-overlay">
-                    <div class="home-project-info">
-                      <h3 class="project-name">Conjunto Residencial</h3>
-                      <p class="project-location">Chiclayo, Perú</p>
-                    </div>
-                  </div>
+                <div class="info-carousel-content">
+                  <h2 class="info-carousel-title">Nuestro compromiso</h2>
+                  <p class="info-carousel-description">
+                    Con más de 15 años de trayectoria en el sector minero y de construcción, 
+                    nuestro compromiso con la sostenibilidad y el desarrollo responsable es 
+                    inquebrantable. Implementamos prácticas que protegen el medio ambiente 
+                    mientras generamos valor para las comunidades.
+                  </p>
+                  <a href="./sostenibilidad.html" class="btn btn-accent">Nuestra Sostenibilidad</a>
                 </div>
               </div>
             </div>
 
-            <!-- Navigation buttons -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
-            <!-- Pagination -->
-            <div class="swiper-pagination"></div>
+            <!-- Navigation Controls -->
+            <div class="info-carousel-controls">
+              <button class="info-carousel-btn info-carousel-prev" aria-label="Anterior">
+                <i data-lucide="chevron-left" width="24" height="24"></i>
+              </button>
+              <div class="info-carousel-indicators">
+                <button class="info-carousel-indicator active" data-slide="0" aria-label="Ir a slide 1"></button>
+                <button class="info-carousel-indicator" data-slide="1" aria-label="Ir a slide 2"></button>
+                <button class="info-carousel-indicator" data-slide="2" aria-label="Ir a slide 3"></button>
+              </div>
+              <button class="info-carousel-btn info-carousel-next" aria-label="Siguiente">
+                <i data-lucide="chevron-right" width="24" height="24"></i>
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -502,43 +494,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Sustainability & Ethics Sections -->
-      <section class="home-sustainability-ethics">
-        <div class="container">
-          <div class="sections-grid">
-            <!-- Sustainability Section -->
-            <div
-              class="home-impact-section home-sustainability-section"
-              data-aos="fade-right"
-              data-aos-duration="800"
-            >
-              <div class="home-section-overlay">
-                <div class="home-section-content">
-                  <h3 class="section-title">Nuestro impacto</h3>
-                  <a href="./sostenibilidad.html" class="btn">IR A SOSTENIBILIDAD</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Ethics Section -->
-            <div
-              class="home-impact-section home-ethics-section"
-              data-aos="fade-left"
-              data-aos-duration="800"
-            >
-              <div class="home-section-overlay">
-                <div class="home-section-content">
-                  <h3 class="section-title">Nuestro Compromiso</h3>
-                  <a href="./contacto.html#canal-comunicaciones" class="btn"
-                    >IR A CANAL DE COMUNICACIONES</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
     <!-- Footer -->
@@ -560,12 +515,20 @@
             </p>
             <div class="footer-social">
               <a
+                href="https://wa.me/51948888070?text=Hola%20INACONS%2C%20estoy%20interesado%20en%20..."
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
                 href="https://www.facebook.com/www.inacons.com.pe"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
               >
-                <i data-lucide="facebook" width="20" height="20"></i>
+                <i class="fa-brands fa-facebook-f"></i>
               </a>
               <a
                 href="https://pe.linkedin.com/company/inacons"
@@ -573,10 +536,7 @@
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <i data-lucide="linkedin" width="20" height="20"></i>
-              </a>
-              <a href="https://www.instagram.com/inacons_oficial/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <i data-lucide="instagram" width="20" height="20"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
               </a>
             </div>
           </div>
@@ -611,19 +571,19 @@
             <h3>Contacto</h3>
             <ul>
               <li>
-                <i data-lucide="mail" width="16" height="16"></i>
+                <i class="fas fa-envelope"></i>
                 ventas@inacons.com.pe
               </li>
               <li>
-                <i data-lucide="phone" width="16" height="16"></i>
+                <i class="fas fa-phone"></i>
                 +51 064 654 736
               </li>
               <li>
-                <i data-lucide="map-pin" width="16" height="16"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 Av. Las Casuarinas 256 Pucusana - Lima
               </li>
               <li>
-                <i data-lucide="map-pin" width="16" height="16"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 Calle Casuarinas 112 El Tambo - Huancayo
               </li>
             </ul>
@@ -638,7 +598,7 @@
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
-      <i data-lucide="chevron-up" width="24" height="24"></i>
+      <i class="fas fa-chevron-up"></i>
     </button>
 
     <!-- Swiper JS -->
